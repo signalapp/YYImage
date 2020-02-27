@@ -323,18 +323,18 @@ typedef NS_ENUM(NSUInteger, YYImageBlendOperation) {
  */
 @property (nonatomic) BOOL yy_isDecodedForDisplay;
 
-/**
- Saves this image to iOS Photos Album. 
- 
- @discussion  This method attempts to save the original data to album if the
- image is created from an animated GIF/APNG, otherwise, it will save the image 
- as JPEG or PNG (based on the alpha information).
- 
- @param completionBlock The block invoked (in main thread) after the save operation completes.
-    assetURL: An URL that identifies the saved image file. If the image is not saved, assetURL is nil.
-    error: If the image is not saved, an error object that describes the reason for failure, otherwise nil.
- */
-- (void)yy_saveToAlbumWithCompletionBlock:(nullable void(^)(NSURL * _Nullable assetURL, NSError * _Nullable error))completionBlock;
+///**
+// Saves this image to iOS Photos Album.
+//
+// @discussion  This method attempts to save the original data to album if the
+// image is created from an animated GIF/APNG, otherwise, it will save the image
+// as JPEG or PNG (based on the alpha information).
+//
+// @param completionBlock The block invoked (in main thread) after the save operation completes.
+//    assetURL: An URL that identifies the saved image file. If the image is not saved, assetURL is nil.
+//    error: If the image is not saved, an error object that describes the reason for failure, otherwise nil.
+// */
+//- (void)yy_saveToAlbumWithCompletionBlock:(nullable void(^)(NSURL * _Nullable assetURL, NSError * _Nullable error))completionBlock;
 
 /**
  Return a 'best' data representation for this image.

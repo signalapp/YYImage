@@ -17,7 +17,10 @@ Pod::Spec.new do |s|
     core.source_files = 'YYImage/*.{h,m}'
     core.public_header_files = 'YYImage/*.{h}'
     core.libraries = 'z'
-    core.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
+    core.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'ImageIO', 'Accelerate', 'MobileCoreServices'
+    # CATALYST TODO: How to include a framework only on *non* catalyst (iOS only) targets?
+    # or, for our purposes we can just exclude it altogether since we're not using it
+    # core.ios.frameworks = 'AssetLibrary'
   end
   
   s.subspec 'WebP' do |webp|
