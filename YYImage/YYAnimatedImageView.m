@@ -530,6 +530,7 @@ typedef NS_ENUM(NSUInteger, YYAnimatedImageType) {
 }
 
 - (void)displayLayer:(CALayer *)layer {
+    [super displayLayer:layer];
     if (_curFrame) {
         layer.contents = (__bridge id)_curFrame.CGImage;
     }

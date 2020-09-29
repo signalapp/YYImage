@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854D1FB52522ABF300E394CD /* webp_test_image.webp in Resources */ = {isa = PBXBuildFile; fileRef = 854D1FB42522ABF300E394CD /* webp_test_image.webp */; };
+		854D1FB92522ADD100E394CD /* YYImageWebPExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D1FB82522ADD100E394CD /* YYImageWebPExample.m */; };
 		D91A60311F057230008CD5D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A60301F057230008CD5D3 /* AppDelegate.m */; };
 		D91A60341F057230008CD5D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A60331F057230008CD5D3 /* ViewController.m */; };
 		D91A60371F057230008CD5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91A60351F057230008CD5D3 /* Main.storyboard */; };
@@ -44,6 +46,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		854D1FB42522ABF300E394CD /* webp_test_image.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = webp_test_image.webp; sourceTree = "<group>"; };
+		854D1FB72522ADD100E394CD /* YYImageWebPExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageWebPExample.h; sourceTree = "<group>"; };
+		854D1FB82522ADD100E394CD /* YYImageWebPExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageWebPExample.m; sourceTree = "<group>"; };
 		D91A602C1F057230008CD5D3 /* YYImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91A602F1F057230008CD5D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YYImageDemo/AppDelegate.h; sourceTree = "<group>"; };
 		D91A60301F057230008CD5D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YYImageDemo/AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +151,8 @@
 				D9D17EDD1F05756400051419 /* YYImageExampleHelper.m */,
 				D9D17EDE1F05756400051419 /* YYImageProgressiveExample.h */,
 				D9D17EDF1F05756400051419 /* YYImageProgressiveExample.m */,
+				854D1FB72522ADD100E394CD /* YYImageWebPExample.h */,
+				854D1FB82522ADD100E394CD /* YYImageWebPExample.m */,
 			);
 			path = YYImageDemo;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 		D9D17EAA1F0574E800051419 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				854D1FB42522ABF300E394CD /* webp_test_image.webp */,
 				D9D17EAB1F05750000051419 /* cube@2x.png */,
 				D9D17EAC1F05750000051419 /* EmoticonWeibo.bundle */,
 				D9D17EAD1F05750000051419 /* google@2x.webp */,
@@ -311,6 +319,7 @@
 				D9D17EB91F05750000051419 /* cube@2x.png in Resources */,
 				D9D17EBE1F05750000051419 /* mew_baseline.png in Resources */,
 				D9D17EC01F05750000051419 /* mew_interlaced.png in Resources */,
+				854D1FB52522ABF300E394CD /* webp_test_image.webp in Resources */,
 				D9D17EC11F05750000051419 /* mew_progressive.jpg in Resources */,
 				D9D17EC51F05750000051419 /* ResourceTwitter.bundle in Resources */,
 				D9D17EBC1F05750000051419 /* mew_baseline.gif in Resources */,
@@ -343,6 +352,7 @@
 				D97F40941F0573DA00DFD481 /* YYAnimatedImageView.m in Sources */,
 				D9D17EE01F05756400051419 /* YYImageDisplayExample.m in Sources */,
 				D97F40971F0573DA00DFD481 /* YYImageCoder.m in Sources */,
+				854D1FB92522ADD100E394CD /* YYImageWebPExample.m in Sources */,
 				D97F40961F0573DA00DFD481 /* YYImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
